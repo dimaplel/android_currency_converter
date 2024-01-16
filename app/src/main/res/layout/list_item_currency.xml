@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:id="@+id/countryImageView"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="Currency flag" />
+
+    <TextView
+        android:id="@+id/textViewCurrencyName"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="18sp" />
+
+<!-- This was supposed to be currency rate TextView, but I did not see -->
+<!-- it appear on any screenshots in exercises, so I decided to get rid of it -->
+<!--    <TextView-->
+<!--        android:id="@+id/textViewExchangeRate"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="3"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:textSize="18sp"-->
+<!--        android:gravity="end"-->
+<!--        />-->
+</LinearLayout>
